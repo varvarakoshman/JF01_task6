@@ -17,6 +17,10 @@ class Note {
         return name;
     }
 
+    public void setText(String text) {
+        this.text = text;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -27,7 +27,7 @@ class Notepad {
     }
 
     public void edit(Note note, String newText){
-        //
+        note.setText(newText);
     }
 
     public void viewAll() {
